@@ -1,11 +1,14 @@
 import Navbar from "../components/Navbar";
+import HeroSection from "../components/HeroSection";
+import HeroSectionTwo from "../components/HeroSectionTwo";
 
 const HomePage = () => {
   return (
     <>
-      <div className="flex">
+      <div className="flex flex-col">
         <Navbar />
-        <h1>Homepage</h1>
+        <HeroSection />
+        <HeroSectionTwo />
       </div>
     </>
   );

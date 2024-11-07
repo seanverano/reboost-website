@@ -4,6 +4,7 @@ export default {
     extend: {
       fontFamily: {
         manrope: ["Manrope", "sans-serif"],
+        playfair: ["Playfair Display", "sans-serif"],
       },
     },
   },
