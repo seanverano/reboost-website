@@ -1,62 +1,54 @@
 import hydration from "../assets/images/hydration.png";
-import hydration_two from "../assets/images/hydration_two.png";
 import { FaCircleCheck } from "react-icons/fa6";
 
 const HydrationSection = () => {
   return (
     <>
-      <section className="flex w-full h-[125vh]">
-        <div className="font-manrope w-[50%] bg-[#E8F8EE] relative flex flex-col items-center border-r-2 border-b-2 border-[#019963] border-solid">
+      <section className="flex w-full h-[125vh] bg-[#EEF8FB]">
+        <div className="font-manrope w-[50%] bg-[#EEF8FB] relative flex flex-col items-center">
           <div className="flex flex-col justify-center h-full">
-            <p className="font-manrope text-[#019963] text-4xl ml-12 px-5 font-semibold">
+            <p className="font-manrope text-[#1CABE3] text-4xl ml-12 px-5 font-semibold">
               Hydration Tracker
             </p>
             <h1 className="font-playfair text-[#000000] text-7xl font-semibold ml-12 px-5 leading-snug mt-12">
               Hydrate and Own the Day
             </h1>
             <p className="font-manrope text-[#000000] text-xl ml-12 px-5 font-normal mt-8 mb-4">
-              Track and log daily water intake for better health.
+              Track and log daily water intake to stay hydrated.
             </p>
             <ul className="font-manrope text-[#000000] text-lg ml-12 px-5 font-normal space-y-6 mt-8">
               <li className="flex items-center">
-                <FaCircleCheck className="text-[#019963] mr-4" />
-                Select your beverage type and set the volume amount
+                <FaCircleCheck className="text-[#1CABE3] mr-4" />
+                Choose your drink and set your perfect volume
               </li>
               <li className="flex items-center">
-                <FaCircleCheck className="text-[#019963] mr-4" />
-                Create your own custom beverage and volume
+                <FaCircleCheck className="text-[#1CABE3] mr-4" />
+                Create custom beverages with personalized volumes
               </li>
               <li className="flex items-center">
-                <FaCircleCheck className="text-[#019963] mr-4" />
-                Log your drink intake and track your progress
+                <FaCircleCheck className="text-[#1CABE3] mr-4" />
+                Log every sip and watch your progress grow
               </li>
               <li className="flex items-center">
-                <FaCircleCheck className="text-[#019963] mr-4" />
-                Adjust your daily volume goal anytime
+                <FaCircleCheck className="text-[#1CABE3] mr-4" />
+                Adjust your daily hydration goal to match your needs
               </li>
               <li className="flex items-center">
-                <FaCircleCheck className="text-[#019963] mr-4" />
-                Reset and check your daily hydration logs
+                <FaCircleCheck className="text-[#1CABE3] mr-4" />
+                Easily reset and review your daily hydration logs
               </li>
             </ul>
           </div>
-
-          <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-0 h-0 border-t-8 border-r-8 border-b-8 border-[#EEF8FB] border-l-[#EEF8FB]"></div>
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-8 border-b-8 border-r-8 border-[#EEF8FB] border-t-[#EEF8FB]"></div>
         </div>
 
-        <div className="w-[50%] bg-[#ffffff] flex flex-col justify-center items-center">
-          <img
-            src={hydration}
-            alt="Reboost Logo"
-            className="w-[256px] h-[256px]"
-          />
-          <div className="border-t-2 border-solid border-[#019963] my-4 w-full"></div>
-          <img
-            src={hydration_two}
-            alt="Reboost Logo"
-            className="w-[256px] h-[256px]"
-          />
+        <div className="w-[50%] mx-10 bg-gradient-to-r from-[#1CABE3] to-[#80D261] flex flex-col justify-center items-center rounded-[2rem]">
+          <div className="flex justify-center w-[80%] h-[85%] bg-white/10 border border-white/20 rounded-[2rem] cursor-pointer backdrop-blur-sm shadow-md">
+            <img
+              src={hydration}
+              alt="Reboost Logo"
+              className="w-[256px] h-[256px]"
+            />
+          </div>
         </div>
       </section>
     </>
