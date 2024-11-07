@@ -3,6 +3,7 @@ import HydrationSection from "../components/HydrationSection";
 import WellnessSection from "../components/WellnessSection";
 import IntersectionCircle from "../components/IntersectionCircle";
 import ContactSection from "../components/ContactSection";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
         <IntersectionCircle />
         <WellnessSection />
         <ContactSection />
+        <Footer />
       </div>
     </>
   );
