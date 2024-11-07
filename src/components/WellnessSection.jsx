@@ -1,4 +1,4 @@
-import hydration from "../assets/images/hydration.png";
+import bell from "../assets/images/bell.png";
 import { FaCircleCheck } from "react-icons/fa6";
 
 const WellnessSection = () => {
@@ -6,12 +6,15 @@ const WellnessSection = () => {
     <>
       <section className="flex w-full h-[125vh] bg-[#E8F8EE]">
         <div className="w-[50%] mx-10 bg-gradient-to-r from-[#80D261] to-[#1CABE3] flex flex-col justify-center items-center rounded-[2rem]">
-          <div className="flex justify-center w-[80%] h-[85%] bg-white/10 border border-white/20 rounded-[2rem] cursor-pointer backdrop-blur-sm shadow-md">
+          <div className="flex flex-col gap-20 justify-center items-center w-[80%] h-[85%] bg-white/10 border border-white/20 rounded-[2rem] cursor-pointer backdrop-blur-sm shadow-md">
             <img
-              src={hydration}
+              src={bell}
               alt="Reboost Logo"
               className="w-[256px] h-[256px]"
             />
+            <p className="text-center font-manrope text-[#ffffff] text-xl font-semibold mx-5">
+              Get break reminders to recharge and stay productive.
+            </p>
           </div>
         </div>
 
@@ -23,9 +26,7 @@ const WellnessSection = () => {
             <h1 className="font-playfair text-[#000000] text-7xl font-semibold ml-12 px-5 leading-snug mt-12">
               Improve Wellness with a Break
             </h1>
-            <p className="font-manrope text-[#000000] text-xl ml-12 px-5 font-normal mt-8 mb-4">
-              Get break reminders to recharge and stay productive.
-            </p>
+
             <ul className="font-manrope text-[#000000] text-lg ml-12 px-5 font-normal space-y-6 mt-8">
               <li className="flex items-center">
                 <FaCircleCheck className="text-[#019963] mr-4" />

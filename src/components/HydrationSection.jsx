@@ -1,4 +1,4 @@
-import hydration from "../assets/images/hydration.png";
+import drink from "../assets/images/drink.png";
 import { FaCircleCheck } from "react-icons/fa6";
 
 const HydrationSection = () => {
@@ -13,9 +13,6 @@ const HydrationSection = () => {
             <h1 className="font-playfair text-[#000000] text-7xl font-semibold ml-12 px-5 leading-snug mt-12">
               Hydrate and Own the Day
             </h1>
-            <p className="font-manrope text-[#000000] text-xl ml-12 px-5 font-normal mt-8 mb-4">
-              Track and log daily water intake to stay hydrated.
-            </p>
             <ul className="font-manrope text-[#000000] text-lg ml-12 px-5 font-normal space-y-6 mt-8">
               <li className="flex items-center">
                 <FaCircleCheck className="text-[#1CABE3] mr-4" />
@@ -42,12 +39,15 @@ const HydrationSection = () => {
         </div>
 
         <div className="w-[50%] mx-10 bg-gradient-to-r from-[#1CABE3] to-[#80D261] flex flex-col justify-center items-center rounded-[2rem]">
-          <div className="flex justify-center w-[80%] h-[85%] bg-white/10 border border-white/20 rounded-[2rem] cursor-pointer backdrop-blur-sm shadow-md">
+          <div className="flex flex-col gap-20 justify-center items-center w-[80%] h-[85%] bg-white/10 border border-white/20 rounded-[2rem] cursor-pointer backdrop-blur-sm shadow-md">
             <img
-              src={hydration}
+              src={drink}
               alt="Reboost Logo"
               className="w-[256px] h-[256px]"
             />
+            <p className="font-manrope text-[#ffffff] text-xl font-semibold mx-5">
+              Track and log daily water intake to stay hydrated.
+            </p>
           </div>
         </div>
       </section>

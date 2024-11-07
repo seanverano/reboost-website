@@ -38,7 +38,7 @@ const Navbar = () => {
             <li className="mx-4 flex">
               <div className="text-base font-bold text-center">
                 <button className="group relative inline-flex items-center px-3 py-2 rounded-lg text-[#ffffff] bg-gradient-to-r from-[#1CABE3] to-[#80D261] leading-normal tracking-[0.015em] transition-all duration-300 hover:pr-9">
-                  <span>Add to Chrome</span>
+                  <span>Chrome Web Store</span>
                   <FaArrowUpRightFromSquare className="absolute left-[calc(100%-30px)] transform translate-x-8 opacity-0 transition-all duration-300 text-base group-hover:translate-x-0 group-hover:opacity-100" />
                 </button>
               </div>
