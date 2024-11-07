@@ -32,14 +32,13 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col gap-5 justify-center items-center text-base font-bold text-center mt-5">
             <button className="px-8 py-5 rounded-full text-xl text-[#ffffff] bg-gradient-to-r from-[#1CABE3] to-[#80D261] leading-normal tracking-[0.015em] hover:opacity-70 transition duration-300 ease-in-out">
-              <span>Add to Chrome</span>
+              <span className="flex items-center gap-2">
+                <AiOutlineChrome />
+                Chrome Web Store
+              </span>
             </button>
             <div className="flex flex-row gap-1 items-center font-manrope text-[#000000] font-normal text-xs">
-              <span>Get it now on the </span>
-              <span>
-                <AiOutlineChrome />
-              </span>
-              <span>Chrome Web Store!</span>
+              Get it now on the Chrome Web Store!
             </div>
           </div>
         </div>
