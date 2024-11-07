@@ -15,6 +15,9 @@ const HeroSection = () => {
             <h1 className="text-center font-extrabold text-6xl bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
               Reboost
             </h1>
+            <p className="font-manrope text-center text-[#000000] text-sm font-normal px-8">
+              Chrome extension for hydration tracking and wellness reminders.
+            </p>
           </div>
         </div>
         <div className="w-[60%] bg-[#E8F8EE] flex flex-col gap-7 justify-center text-left">

@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
-import HeroSectionTwo from "../components/HeroSectionTwo";
+import HydrationSection from "../components/HydrationSection";
+import WellnessSection from "../components/WellnessSection";
 
 const HomePage = () => {
   return (
@@ -8,7 +9,8 @@ const HomePage = () => {
       <div className="flex flex-col">
         <Navbar />
         <HeroSection />
-        <HeroSectionTwo />
+        <HydrationSection />
+        <WellnessSection />
       </div>
     </>
   );
