@@ -26,7 +26,7 @@ const ContactSection = () => {
             </p>
             <div className="flex flex-row justify-center gap-5 font-manrope font-bold mb-10">
               <a href="mailto:verano.seandustin@gmail.com">
-                <button className="flex flex-row items-center border border-transparent justify-center w-[250px] py-5 rounded-full text-3xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:text-[#000000] hover:bg-[transparent] hover:border hover:border-black/50 transition duration-300 ease-in-out">
+                <button className="flex flex-row items-center border border-white/50 justify-center w-[250px] py-5 rounded-full text-3xl text-[#ffffff] bg-[transparent] leading-normal tracking-[0.015em] hover:text-[#ffffff] hover:bg-[#000000] transition duration-300 ease-in-out">
                   <span className="flex items-center gap-2">
                     <MdOutlineMailOutline />
                     Email
@@ -34,7 +34,7 @@ const ContactSection = () => {
                 </button>
               </a>
 
-              <button className="flex flex-row items-center justify-center border border-transparent w-[250px] py-5 rounded-full text-3xl text-[#000000] bg-[#ffffff] leading-normal tracking-[0.015em] hover:text-[#ffffff] hover:bg-[transparent] hover:border hover:border-white/50 transition duration-300 ease-in-out">
+              <button className="flex flex-row items-center justify-center border border-white/50 w-[250px] py-5 rounded-full text-3xl text-[#ffffff] bg-[transparent] leading-normal tracking-[0.015em] hover:text-[#000000] hover:bg-[#ffffff] transition duration-300 ease-in-out">
                 <span className="flex items-center gap-2">
                   <FaWpforms />
                   Forms

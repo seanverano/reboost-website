@@ -72,6 +72,19 @@ const ResourcesPage = () => {
               Happy illustrations by Storyset <GoArrowUpRight />
             </a>
           </div>
+
+          <div className="mb-4">
+            <h3 className="font-semibold mb-2">Additional Icons</h3>
+            <a
+              href="https://react-icons.github.io/react-icons/"
+              title="water drop icons"
+              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              All other icons sourced from React Icons <GoArrowUpRight />
+            </a>
+          </div>
         </div>
 
         <p className="font-manrope text-[#0000000] text-3xl mt-4 pt-10 pl-20 font-semibold">
@@ -116,6 +129,19 @@ const ResourcesPage = () => {
             >
               Notification icons created by Pixel perfect - Flaticon{" "}
               <GoArrowUpRight />
+            </a>
+          </div>
+
+          <div className="mb-4">
+            <h3 className="font-semibold mb-2">Additional Icons</h3>
+            <a
+              href="https://react-icons.github.io/react-icons/"
+              title="water drop icons"
+              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              All other icons sourced from React Icons <GoArrowUpRight />
             </a>
           </div>
         </div>
