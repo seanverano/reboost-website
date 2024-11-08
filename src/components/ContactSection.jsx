@@ -34,12 +34,18 @@ const ContactSection = () => {
                 </button>
               </a>
 
-              <button className="flex flex-row items-center justify-center border border-white/50 w-[250px] py-5 rounded-full text-3xl text-[#ffffff] bg-[transparent] leading-normal tracking-[0.015em] hover:text-[#000000] hover:bg-[#ffffff] transition duration-300 ease-in-out">
-                <span className="flex items-center gap-2">
-                  <FaWpforms />
-                  Forms
-                </span>
-              </button>
+              <a
+                href="https://forms.gle/WoaTgzZk2sNFwk136"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="flex flex-row items-center justify-center border border-white/50 w-[250px] py-5 rounded-full text-3xl text-[#ffffff] bg-[transparent] leading-normal tracking-[0.015em] hover:text-[#000000] hover:bg-[#ffffff] transition duration-300 ease-in-out">
+                  <span className="flex items-center gap-2">
+                    <FaWpforms />
+                    Forms
+                  </span>
+                </button>
+              </a>
             </div>
           </div>
         </div>

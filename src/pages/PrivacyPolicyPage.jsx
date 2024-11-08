@@ -2,7 +2,7 @@ import NavbarThree from "../components/NavbarThree";
 import React from "react";
 import { MdOutlinePrivacyTip } from "react-icons/md";
 
-const PrivacyPolicy = () => {
+const PrivacyPolicyPage = () => {
   return (
     <div className="relative flex w-full min-h-screen bg-[#EEF8FB] pb-20">
       <NavbarThree />
@@ -78,7 +78,7 @@ const PrivacyPolicy = () => {
               Required Permissions
             </h2>
             <p className="text-[#000000]">
-              Our extension requires the following Chrome permissions:
+              This extension requires the following Chrome permissions:
             </p>
             <ul className="list-disc pl-5 space-y-2 text-[#000000]">
               <li>
@@ -149,4 +149,4 @@ const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default PrivacyPolicyPage;
