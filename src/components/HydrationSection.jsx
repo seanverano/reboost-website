@@ -4,7 +4,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 const HydrationSection = () => {
   return (
     <>
-      <section className="flex w-full h-[125vh] bg-[#EEF8FB]">
+      <section className="flex w-full h-[100vh] bg-[#EEF8FB]">
         <div className="font-manrope w-[50%] bg-[#EEF8FB] relative flex flex-col items-center">
           <div className="flex flex-col justify-center h-full">
             <p className="font-manrope text-[#1CABE3] text-4xl ml-12 px-5 font-semibold">
@@ -42,7 +42,7 @@ const HydrationSection = () => {
           <div className="flex flex-col gap-20 justify-center items-center w-[80%] h-[85%] bg-white/10 border border-white/20 rounded-[2rem] cursor-pointer backdrop-blur-sm shadow-md">
             <img
               src={drink}
-              alt="Reboost Logo"
+              alt="Water Bottle Icon"
               className="w-[256px] h-[256px]"
             />
             <p className="font-manrope text-[#ffffff] text-xl font-semibold mx-5">

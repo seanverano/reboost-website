@@ -1,7 +1,11 @@
-import { HashLink } from "react-router-hash-link";
+import { useNavigate } from "react-router-dom";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
-const Navbar = () => {
+const NavbarTwo = () => {
+  const navigate = useNavigate();
+  const viewHome = () => navigate("/");
+  const viewPrivacyPolicy = () => navigate("/privacy-policy");
+
   return (
     <header className="fixed z-50 w-full font-manrope">
       <nav className="relative w-full z-10 rounded-lg overflow-hidden">
@@ -18,19 +22,20 @@ const Navbar = () => {
 
           <ul className="flex flex-row items-center list-none ml-auto">
             <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-in-out">
-              <HashLink className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer">
+              <button
+                onClick={viewHome}
+                className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer"
+              >
                 HOME
-              </HashLink>
+              </button>
             </li>
             <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-in-out">
-              <HashLink className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer">
-                FEATURES
-              </HashLink>
-            </li>
-            <li className="mx-6 cursor-pointer transform hover:scale-105 transition-transform duration-300 ease-in-out">
-              <HashLink className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer">
-                CONTACT
-              </HashLink>
+              <button
+                onClick={viewPrivacyPolicy}
+                className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer"
+              >
+                PRIVACY POLICY
+              </button>
             </li>
             <li className="mx-4 flex">
               <div className="text-base font-bold text-center">
@@ -47,4 +52,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarTwo;

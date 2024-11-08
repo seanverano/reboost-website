@@ -4,7 +4,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 const ContactSection = () => {
   return (
     <>
-      <section className="flex flex-col justify-center w-full h-[200vh] bg-[#E8F8EE] gap-20">
+      <section className="flex flex-col justify-center w-full h-[140vh] bg-[#E8F8EE] gap-20">
         <h1 className="font-playfair text-[#000000] text-8xl font-semibold px-5 leading-snug text-center mx-20">
           Stay{" "}
           <span className="bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
