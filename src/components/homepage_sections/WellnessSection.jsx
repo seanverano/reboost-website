@@ -16,7 +16,7 @@ const WellnessSection = () => {
 
         <div className="font-manrope w-[50%] bg-[#E8F8EE] relative flex flex-col items-center">
           <div className="flex flex-col justify-center h-full">
-            <p className="font-manrope text-[#019963] text-4xl ml-2 px-5 font-semibold">
+            <p className="font-manrope text-[#019963] text-4xl ml-2 px-5 font-semibold mt-10">
               Wellness Reminder
             </p>
             <h1 className="font-playfair text-[#000000] text-7xl font-semibold ml-2 px-5 leading-snug mt-12">

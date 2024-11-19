@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <div className="flex items-center bg-[#E8F8EE] py-8">
-        <div className="w-[50%] flex justify-start text-base font-bold text-center ml-5">
+        <div className="hidden md:flex w-[50%] justify-start text-base font-bold text-center ml-5">
           <ul className="flex flex-row items-center list-none font-manrope">
             <li className="mx-6">
               <button
@@ -33,7 +33,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="w-[50%] flex justify-end text-base font-bold text-center font-manrope mr-10">
+        <div className="w-full md:w-[50%] flex justify-end text-base font-bold text-center font-manrope mr-10">
           <ul className="flex flex-row items-center gap-4">
             {" "}
             <li className="font-normal text-base leading-tight tracking-[+0.05em] text-[#000000]">
