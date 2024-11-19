@@ -1,5 +1,4 @@
-import NavbarThree from "../components/NavbarThree";
-import React from "react";
+import NavbarThree from "../components/navbars/NavbarThree";
 import { MdOutlinePrivacyTip } from "react-icons/md";
 
 const PrivacyPolicyPage = () => {
@@ -138,9 +137,12 @@ const PrivacyPolicyPage = () => {
               navigate to the Contact section on the home site via the navbar
               for access to my email, Google Forms, or social links.
               Alternatively, feel free to email me directly at{" "}
-              <span className="text-[#1CABE3] font-bold">
-                verano.seandustin@gmail.com.
-              </span>
+              <a
+                href="mailto:verano.seandustin@gmail.com"
+                className="text-[#1CABE3] font-bold hover:text-[#000000]"
+              >
+                verano.seandustin@gmail.com
+              </a>
             </p>
           </section>
         </div>

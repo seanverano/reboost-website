@@ -1,8 +1,8 @@
-import HeroSection from "../components/HeroSection";
-import HydrationSection from "../components/HydrationSection";
-import WellnessSection from "../components/WellnessSection";
+import HeroSection from "../components/homepage_sections/HeroSection";
+import HydrationSection from "../components/homepage_sections/HydrationSection";
+import WellnessSection from "../components/homepage_sections/WellnessSection";
 import IntersectionCircle from "../components/IntersectionCircle";
-import ContactSection from "../components/ContactSection";
+import ContactSection from "../components/homepage_sections/ContactSection";
 import Footer from "../components/Footer";
 
 const HomePage = () => {
@@ -13,7 +13,7 @@ const HomePage = () => {
         <HydrationSection />
         <IntersectionCircle />
         <WellnessSection />
-        <ContactSection />
+        <ContactSection id="contact" />
         <Footer />
       </div>
     </>

@@ -1,10 +1,10 @@
-import logo from "../assets/images/logo.png";
-import Navbar from "./Navbar";
+import logo from "../../assets/images/logo.png";
+import Navbar from "../navbars/Navbar";
 
 const HeroSection = () => {
   return (
     <>
-      <section className="relative flex w-full h-screen">
+      <section id="home" className="relative flex w-full h-screen">
         <Navbar />
         <div className="font-manrope w-[40%] bg-[#EEF8FB] flex justify-center items-center">
           <div className="flex gap-4 flex-col justify-center items-center z-10">
@@ -31,7 +31,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-row gap-5 items-center text-base font-bold text-center mt-5 ml-12 px-5">
             <div className="flex flex-row gap-1 items-center font-manrope text-[#000000] font-normal text-sm">
-              Get it now on the Chrome Web Store!
+              Get it for free on the Chrome Web Store now!
             </div>
             <button className="px-8 py-5 rounded-full text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#1CABE3] hover:text-[#ffffff] transition duration-300 ease-in-out">
               <span className="flex items-center gap-2">Get Started</span>

@@ -1,4 +1,4 @@
-import bell from "../assets/images/bell.png";
+import bell from "../../assets/images/bell.png";
 import { FaCircleCheck } from "react-icons/fa6";
 
 const WellnessSection = () => {

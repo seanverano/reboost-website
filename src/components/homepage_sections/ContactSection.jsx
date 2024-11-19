@@ -4,7 +4,10 @@ import { MdOutlineMailOutline } from "react-icons/md";
 const ContactSection = () => {
   return (
     <>
-      <section className="flex flex-col justify-center w-full h-[140vh] bg-[#E8F8EE] gap-20">
+      <section
+        id="contact"
+        className="flex flex-col justify-center w-full h-[140vh] bg-[#E8F8EE] gap-20"
+      >
         <h1 className="font-playfair text-[#000000] text-8xl font-semibold px-5 leading-snug text-center mx-20">
           Stay{" "}
           <span className="bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
@@ -26,7 +29,7 @@ const ContactSection = () => {
             </p>
             <div className="flex flex-row justify-center gap-5 font-manrope font-bold mb-10">
               <a href="mailto:verano.seandustin@gmail.com">
-                <button className="flex flex-row items-center border border-white/50 justify-center w-[250px] py-5 rounded-full text-3xl text-[#ffffff] bg-[transparent] leading-normal tracking-[0.015em] hover:text-[#ffffff] hover:bg-[#000000] transition duration-300 ease-in-out">
+                <button className="flex flex-row items-center border border-white/50 justify-center w-[250px] py-5 rounded-full text-3xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:text-[#000000] hover:bg-[#ffffff] transition duration-300 ease-in-out">
                   <span className="flex items-center gap-2">
                     <MdOutlineMailOutline />
                     Email
@@ -39,7 +42,7 @@ const ContactSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="flex flex-row items-center justify-center border border-white/50 w-[250px] py-5 rounded-full text-3xl text-[#ffffff] bg-[transparent] leading-normal tracking-[0.015em] hover:text-[#000000] hover:bg-[#ffffff] transition duration-300 ease-in-out">
+                <button className="flex flex-row items-center justify-center border border-white/50 w-[250px] py-5 rounded-full text-3xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:text-[#000000] hover:bg-[#ffffff] transition duration-300 ease-in-out">
                   <span className="flex items-center gap-2">
                     <FaWpforms />
                     Forms

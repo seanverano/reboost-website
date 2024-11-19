@@ -1,4 +1,4 @@
-import NavbarTwo from "../components/NavbarTwo";
+import NavbarTwo from "../components/navbars/NavbarTwo";
 import { GrResources } from "react-icons/gr";
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -8,7 +8,7 @@ const ResourcesPage = () => {
       <NavbarTwo />
       <div className="font-manrope w-full flex flex-col justify-start items-start">
         <h1 className="text-left flex items-center font-playfair gap-2 text-[#000000] text-6xl font-semibold leading-snug mt-12 pt-20 pl-20">
-          <GrResources /> Resources & Attribution
+          <GrResources /> Resources and Attribution
         </h1>
 
         <p className="font-manrope text-[#0000000] text-3xl mt-4 pt-10 pl-20 font-semibold">

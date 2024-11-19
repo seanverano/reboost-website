@@ -18,17 +18,29 @@ const Navbar = () => {
 
           <ul className="flex flex-row items-center list-none ml-auto">
             <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-in-out">
-              <HashLink className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer">
+              <HashLink
+                to="#home"
+                smooth
+                className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer"
+              >
                 HOME
               </HashLink>
             </li>
             <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-in-out">
-              <HashLink className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer">
+              <HashLink
+                to="#features"
+                smooth
+                className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer"
+              >
                 FEATURES
               </HashLink>
             </li>
             <li className="mx-6 cursor-pointer transform hover:scale-105 transition-transform duration-300 ease-in-out">
-              <HashLink className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer">
+              <HashLink
+                to="#contact"
+                smooth
+                className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer"
+              >
                 CONTACT
               </HashLink>
             </li>

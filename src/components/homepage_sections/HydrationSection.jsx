@@ -1,10 +1,10 @@
-import drink from "../assets/images/drink.png";
+import drink from "../../assets/images/drink.png";
 import { FaCircleCheck } from "react-icons/fa6";
 
 const HydrationSection = () => {
   return (
     <>
-      <section className="flex w-full h-[100vh] bg-[#EEF8FB]">
+      <section id="features" className="flex w-full h-[100vh] bg-[#EEF8FB]">
         <div className="font-manrope w-[50%] bg-[#EEF8FB] relative flex flex-col items-center">
           <div className="flex flex-col justify-center h-full">
             <p className="font-manrope text-[#1CABE3] text-4xl ml-12 px-5 font-semibold">
