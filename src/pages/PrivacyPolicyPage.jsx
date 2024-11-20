@@ -3,7 +3,7 @@ import { MdOutlinePrivacyTip } from "react-icons/md";
 
 const PrivacyPolicyPage = () => {
   return (
-    <div className="relative flex w-full min-h-screen bg-[#EEF8FB] pb-10 md:pb-20">
+    <div className="relative flex w-full min-h-screen bg-[#EEF8FB] pb-10 md:pb-20 text-justify">
       <NavbarThree />
       <div className="font-manrope w-full flex flex-col justify-start items-start px-4 sm:px-10 md:px-20">
         <h1
@@ -13,7 +13,7 @@ const PrivacyPolicyPage = () => {
           mt-6 sm:mt-8 md:mt-12 
           pt-10 sm:pt-15 md:pt-20"
         >
-          <MdOutlinePrivacyTip className="mr-2 text-2xl sm:text-3xl md:text-4xl" />
+          <MdOutlinePrivacyTip className="mr-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl" />
           Privacy Policy
         </h1>
 
@@ -143,18 +143,20 @@ const PrivacyPolicyPage = () => {
             <h2 className="text-2xl sm:text-3xl font-semibold text-[#000000]">
               Contact
             </h2>
-            <p className="text-sm sm:text-base text-[#000000]">
-              If you have any questions about this Privacy Policy, you can
-              navigate to the Contact section on the home site via the navbar
-              for access to my email, Google Forms, or social links.
-              Alternatively, feel free to email me directly at{" "}
-              <a
-                href="mailto:verano.seandustin@gmail.com"
-                className="text-[#1CABE3] font-bold hover:text-[#000000]"
-              >
-                verano.seandustin@gmail.com
-              </a>
-            </p>
+            <div className="flex flex-row">
+              <p className="text-sm sm:text-base text-[#000000]">
+                If you have any questions about this Privacy Policy, you can
+                navigate to the Contact section on the home site via the navbar
+                for access to my email, Google Forms, or social links.
+                Alternatively, feel free to email me directly at{" "}
+                <a
+                  href="mailto:verano.seandustin@gmail.com"
+                  className="text-[#1CABE3] font-bold hover:text-[#000000]"
+                >
+                  verano.seandustin@gmail.com.
+                </a>
+              </p>
+            </div>
           </section>
         </div>
       </div>
