@@ -3,7 +3,7 @@ import { GrResources } from "react-icons/gr";
 
 const ResourcesPage = () => {
   return (
-    <div className="relative flex w-full min-h-screen bg-[#E8F8EE] pb-10 md:pb-20 text-justify">
+    <div className="relative flex w-full min-h-screen bg-[#E8F8EE] pb-10 md:pb-20">
       <NavbarTwo />
       <div className="font-manrope w-full flex flex-col justify-start items-start px-4 sm:px-10 md:px-20">
         <h1

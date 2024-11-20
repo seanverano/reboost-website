@@ -8,12 +8,12 @@ import Footer from "../components/Footer";
 const HomePage = () => {
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col bg-[#EEF8FB]">
         <HeroSection />
         <HydrationSection />
         <IntersectionCircle />
         <WellnessSection />
-        <ContactSection id="contact" />
+        <ContactSection />
         <Footer />
       </div>
     </>

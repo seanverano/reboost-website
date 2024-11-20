@@ -23,7 +23,7 @@ const NavbarThree = () => {
       <nav className="relative w-full z-10 rounded-lg overflow-hidden">
         <div className="relative flex items-center justify-between px-4 md:px-11 mt-5 w-full">
           <div className="flex items-center">
-            <h1 className="text-center font-extrabold text-2xl bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
+            <h1 className="2xl:text-4xl text-center font-extrabold text-2xl bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
               Reboost
             </h1>
           </div>
@@ -41,7 +41,7 @@ const NavbarThree = () => {
             <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-in-out">
               <button
                 onClick={viewHome}
-                className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer"
+                className="2xl:text-2xl font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer"
               >
                 HOME
               </button>
@@ -49,13 +49,13 @@ const NavbarThree = () => {
             <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-in-out">
               <button
                 onClick={viewResources}
-                className="font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer"
+                className="2xl:text-2xl font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer"
               >
                 RESOURCES
               </button>
             </li>
             <li className="mx-4 flex">
-              <div className="text-base font-bold text-center">
+              <div className="text-base 2xl:text-xl  font-bold text-center">
                 <button className="group relative inline-flex items-center px-3 py-2 rounded-lg text-[#ffffff] bg-gradient-to-r from-[#1CABE3] to-[#80D261] leading-normal tracking-[0.015em] transition-all duration-300 hover:pr-9">
                   <span>Chrome Web Store</span>
                   <FaArrowUpRightFromSquare className="absolute left-[calc(100%-30px)] transform translate-x-8 opacity-0 transition-all duration-300 text-base group-hover:translate-x-0 group-hover:opacity-100" />
@@ -65,7 +65,7 @@ const NavbarThree = () => {
           </ul>
 
           {isMenuOpen && (
-            <div className="md:hidden fixed inset-0 bg-white z-40 top-0 left-0 w-full h-full">
+            <div className="md:hidden fixed inset-0 bg-[#EEF8FB] z-40 top-0 left-0 w-full h-full">
               <div className="flex flex-col items-center justify-center h-full space-y-8">
                 <button
                   onClick={() => {

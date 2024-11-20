@@ -1,5 +1,4 @@
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 
@@ -9,60 +8,51 @@ const Footer = () => {
   const viewPrivacyPolicy = () => navigate("/privacy-policy");
 
   return (
-    <>
-      <div className="flex items-center bg-[#E8F8EE] py-8">
-        <div className="hidden md:flex w-[50%] justify-start text-base font-bold text-center ml-5">
-          <ul className="flex flex-row items-center list-none font-manrope">
-            <li className="mx-6">
-              <button
-                onClick={viewPrivacyPolicy}
-                className="group relative inline-flex items-center px-3 py-2 text-[#1CABE3] bg-transparent leading-normal tracking-[0.015em] transition-all duration-300 hover:pr-9"
-              >
-                <span>PRIVACY POLICY</span>
-                <FaArrowUpRightFromSquare className="absolute left-[calc(100%-30px)] transform translate-x-8 opacity-0 transition-all duration-300 text-base group-hover:translate-x-0 group-hover:opacity-100" />
-              </button>
-            </li>
-            <li className="mx-6">
-              <button
-                onClick={viewResources}
-                className="group relative inline-flex items-center px-3 py-2  text-[#019963] bg-transparent leading-normal tracking-[0.015em] transition-all duration-300 hover:pr-9"
-              >
-                <span>RESOURCES</span>
-                <FaArrowUpRightFromSquare className="absolute left-[calc(100%-30px)] transform translate-x-8 opacity-0 transition-all duration-300 text-base group-hover:translate-x-0 group-hover:opacity-100" />
-              </button>
-            </li>
-          </ul>
-        </div>
-        <div className="w-full md:w-[50%] flex justify-end text-base font-bold text-center font-manrope mr-10">
-          <ul className="flex flex-row items-center gap-4">
-            {" "}
-            <li className="font-normal text-base leading-tight tracking-[+0.05em] text-[#000000]">
-              Developed by Sean Dustin Verano © 2024. All rights reserved.
-            </li>
-            <li className="transition duration-300 ease-in-out">
-              <a
-                href="https://www.linkedin.com/in/sdverano"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 rounded-full bg-[#1CABE3] text-[#ffffff] hover:text-[#1CABE3] hover:bg-[transparent]"
-              >
-                <FaLinkedin size={24} />
-              </a>
-            </li>
-            <li className="transition duration-300 ease-in-out">
-              <a
-                href="https://github.com/seanverano"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 rounded-full bg-[#019963] text-[#ffffff] hover:text-[#019963] hover:bg-[transparent]"
-              >
-                <FaGithub size={24} />
-              </a>
-            </li>
-          </ul>
+    <div className="flex flex-col md:flex-row items-center bg-[#E8F8EE] py-8 px-4 md:px-0">
+      <div className="hidden md:flex w-[50%] justify-start">
+        <ul className="2xl:text-2xl flex flex-row items-center font-manrope ml-10">
+          <li className="mx-6">
+            <button
+              onClick={viewPrivacyPolicy}
+              className="font-normal group relative inline-flex items-center px-3 py-2 text-[#1CABE3] bg-transparent leading-normal tracking-[0.015em] transform hover:scale-105 transition-transform duration-300 ease-in-out"
+            >
+              PRIVACY POLICY
+            </button>
+          </li>
+          <li className="mx-6">
+            <button
+              onClick={viewResources}
+              className="font-normal group relative inline-flex items-center px-3 py-2 text-[#019963] bg-transparent leading-normal tracking-[0.015em] transform hover:scale-105 transition-transform duration-300 ease-in-out"
+            >
+              RESOURCES
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div className="xl:mr-10 sm:mr-10 w-full md:w-[50%] flex flex-col md:flex-row justify-center md:justify-end items-center space-y-4 md:space-y-0 md:space-x-4">
+        <p className="font-manrope text-center md:text-right font-normal text-sm md:text-base 2xl:text-xl leading-tight tracking-[+0.05em] text-[#000000] mb-2 md:mb-0">
+          Developed by Sean Dustin Verano © 2024. All rights reserved.
+        </p>
+        <div className="flex space-x-4">
+          <a
+            href="https://www.linkedin.com/in/sdverano"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center w-12 h-12 md:w-12 md:h-12 rounded-full bg-[transparent] text-[#1CABE3]"
+          >
+            <FaLinkedin size={24} className="md:size-24" />
+          </a>
+          <a
+            href="https://github.com/seanverano"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center w-12 h-12 md:w-12 md:h-12 rounded-full bg-[transparent] text-[#019963]"
+          >
+            <FaGithub size={24} className="md:size-24" />
+          </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
