@@ -20,8 +20,8 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full font-manrope z-50">
-      <nav className="relative w-full z-50 rounded-lg overflow-hidden">
+    <header className="fixed z-50 w-full font-manrope">
+      <nav className="relative w-full z-10 rounded-lg overflow-hidden">
         <div className="relative flex items-center justify-between px-4 md:px-11 mt-5 w-full">
           <div className="flex items-center">
             <h1 className="2xl:text-4xl text-center font-extrabold text-2xl bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
@@ -38,7 +38,7 @@ const Navbar = () => {
             </button>
           </div>
 
-          <ul className="hidden md:flex flex-row items-center list-none ml-auto z-100">
+          <ul className="hidden md:flex flex-row items-center list-none ml-auto">
             <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-in-out">
               <HashLink
                 to="#home"
@@ -77,7 +77,7 @@ const Navbar = () => {
           </ul>
 
           {isMenuOpen && (
-            <div className="md:hidden fixed inset-0 bg-[#EEF8FB] z-50 top-0 left-0 w-screen h-screen font-manrope">
+            <div className="md:hidden fixed inset-0 bg-[#EEF8FB] z-40 top-0 left-0 w-full h-full">
               <div className="flex flex-col items-center justify-center h-full space-y-8">
                 <HashLink
                   to="#home"
