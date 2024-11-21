@@ -1,7 +1,17 @@
 import logo from "../../assets/images/logo.png";
 import Navbar from "../navbars/Navbar";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const HeroSection = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
     <>
       <section
@@ -10,7 +20,12 @@ const HeroSection = () => {
       >
         <Navbar />
         <div className="mt-10 font-manrope w-full md:w-[40%] bg-[#EEF8FB] flex justify-center items-center pt-10 pb-5 md:py-0">
-          <div className="flex gap-4 flex-col justify-center items-center z-10">
+          <div
+            className="flex gap-4 flex-col justify-center items-center z-10"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             <img
               src={logo}
               alt="Reboost Logo"
@@ -21,7 +36,12 @@ const HeroSection = () => {
             </h1>
           </div>
         </div>
-        <div className="w-full md:w-[60%] bg-[#EEF8FB] flex flex-col gap-4 md:gap-7 justify-center text-center md:text-left px-4 md:px-0 pb-10 md:pb-0">
+        <div
+          className="w-full md:w-[60%] bg-[#EEF8FB] flex flex-col gap-4 md:gap-7 justify-center text-center md:text-left px-4 md:px-0 pb-10 md:pb-0"
+          data-aos="fade-left"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <h1 className="font-playfair text-[#000000] text-3xl md:text-7xl font-semibold md:ml-12 leading-snug mt-6 md:mt-12">
             Refresh and Boost your well-being
           </h1>

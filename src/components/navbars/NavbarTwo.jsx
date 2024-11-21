@@ -2,8 +2,18 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaArrowUpRightFromSquare, FaBars } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const NavbarTwo = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -19,7 +29,12 @@ const NavbarTwo = () => {
   };
 
   return (
-    <header className="fixed z-50 w-full font-manrope">
+    <header
+      className="fixed z-50 w-full font-manrope"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+    >
       <nav className="relative w-full z-10 rounded-lg overflow-hidden">
         <div className="relative flex items-center justify-between px-4 md:px-11 mt-5 w-full">
           <div className="flex items-center">
