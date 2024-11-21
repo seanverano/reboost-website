@@ -26,7 +26,7 @@ const ResourcesPage = () => {
           Design Resources For Chrome Extension
         </p>
 
-        <div className="w-full px-4 sm:px-0 mt-8 space-y-6">
+        <div className="w-full sm:px-0 mt-8 space-y-6">
           <div className="mb-4">
             <h3 className="font-semibold mb-2 text-base sm:text-lg">
               Chrome Extension Icon/Logo
@@ -112,7 +112,7 @@ const ResourcesPage = () => {
           Design Resources For Official Site
         </p>
 
-        <div className="w-full px-4 sm:px-0 mt-8 space-y-6">
+        <div className="w-full sm:px-0 mt-8 space-y-6">
           <div className="mb-4">
             <h3 className="font-semibold mb-2 text-base sm:text-lg">
               Chrome Extension Icon/Logo
