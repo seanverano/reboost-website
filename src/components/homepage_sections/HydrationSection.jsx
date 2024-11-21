@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 const HydrationSection = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1500,
+      duration: 1000,
       once: true,
     });
   }, []);
@@ -22,7 +22,7 @@ const HydrationSection = () => {
           className="font-manrope w-full lg:w-[50%] bg-[#EEF8FB] relative flex flex-col items-center justify-center px-4 lg:px-0 order-2 lg:order-1"
           data-aos="fade-right"
           data-aos-easing="linear"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
         >
           <div className="flex flex-col justify-center h-full">
             <p className="mt-6 lg:mt-0 font-manrope text-[#1CABE3] text-2xl md:text-4xl lg:ml-12 font-semibold text-center lg:text-left">
@@ -70,7 +70,7 @@ const HydrationSection = () => {
           className="w-[80%] mx-auto px-10 sm:px-0 lg:w-[50%] mt-10 lg:mt-0 lg:mx-10 bg-gradient-to-r from-[#1CABE3] to-[#80D261] flex flex-col justify-center items-center rounded-[2rem] lg:rounded-[2rem] order-1 lg:order-2"
           data-aos="fade-left"
           data-aos-easing="linear"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
         >
           <div className="flex my-10 sm:my-10 flex-col gap-10 md:gap-20 justify-center items-center w-full md:w-[80%] h-auto md:h-[85%] bg-white/10 border border-white/20 rounded-[2rem] lg:rounded-[2rem] cursor-pointer backdrop-blur-sm shadow-md p-6 lg:p-0">
             <img

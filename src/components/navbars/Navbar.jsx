@@ -3,17 +3,8 @@ import { HashLink } from "react-router-hash-link";
 import { FaArrowUpRightFromSquare, FaBars } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Navbar = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  }, []);
-
   const navigate = useNavigate();
   const viewResources = () => navigate("/resources");
   const viewPrivacyPolicy = () => navigate("/privacy-policy");
@@ -29,12 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <header
-      className="fixed z-50 w-full font-manrope"
-      data-aos="fade-down"
-      data-aos-easing="linear"
-      data-aos-duration="1000"
-    >
+    <header className="fixed z-50 w-full font-manrope">
       <nav className="relative w-full z-10 rounded-lg overflow-hidden">
         <div className="relative flex items-center justify-between px-4 md:px-11 mt-5 w-full">
           <div className="flex items-center">
