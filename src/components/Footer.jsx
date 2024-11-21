@@ -1,5 +1,4 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
@@ -14,7 +13,7 @@ const Footer = () => {
           <li className="mx-6">
             <button
               onClick={viewPrivacyPolicy}
-              className="font-normal group relative inline-flex items-center px-3 py-2 text-[#1CABE3] bg-transparent leading-normal tracking-[0.015em] transform hover:scale-105 transition-transform duration-300 ease-in-out"
+              className="font-normal group relative inline-flex items-center px-3 py-2 text-[#323232] bg-transparent leading-normal tracking-[0.015em] transform hover:scale-105 transition-transform duration-300 ease-in-out"
             >
               PRIVACY POLICY
             </button>
@@ -22,17 +21,18 @@ const Footer = () => {
           <li className="mx-6">
             <button
               onClick={viewResources}
-              className="font-normal group relative inline-flex items-center px-3 py-2 text-[#019963] bg-transparent leading-normal tracking-[0.015em] transform hover:scale-105 transition-transform duration-300 ease-in-out"
+              className="font-normal group relative inline-flex items-center px-3 py-2 text-[#323232] bg-transparent leading-normal tracking-[0.015em] transform hover:scale-105 transition-transform duration-300 ease-in-out"
             >
               RESOURCES
             </button>
           </li>
         </ul>
       </div>
-      <div className="xl:mr-10 sm:mr-10 w-full md:w-[50%] flex flex-col md:flex-row justify-center md:justify-end items-center space-y-4 md:space-y-0 md:space-x-4">
-        <p className="font-manrope text-center md:text-right font-normal text-sm md:text-base 2xl:text-xl leading-tight tracking-[+0.05em] text-[#000000] mb-2 md:mb-0">
-          Developed by Sean Dustin Verano © 2024. All rights reserved.
-        </p>
+      <div className="xl:mr-10 sm:mr-10 w-full md:w-[50%] flex flex-col md:flex-row justify-center md:justify-end items-center md:space-y-0 md:space-x-4">
+        <div className="flex flex-col font-manrope text-center md:text-right font-normal text-sm md:text-base 2xl:text-xl leading-tight tracking-[+0.05em] text-[#000000] md:mb-0">
+          Developed by Sean Dustin Verano © 2024.{" "}
+          <span>All Rights Reserved.</span>
+        </div>
         <div className="flex space-x-4">
           <a
             href="https://www.linkedin.com/in/sdverano"

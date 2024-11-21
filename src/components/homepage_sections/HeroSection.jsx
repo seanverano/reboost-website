@@ -9,7 +9,7 @@ const HeroSection = () => {
         className="relative flex flex-col md:flex-row w-full min-h-screen"
       >
         <Navbar />
-        <div className="mt-10 font-manrope w-full md:w-[40%] bg-[#EEF8FB] flex justify-center items-center py-10 md:py-0">
+        <div className="mt-10 font-manrope w-full md:w-[40%] bg-[#EEF8FB] flex justify-center items-center pt-10 pb-5 md:py-0">
           <div className="flex gap-4 flex-col justify-center items-center z-10">
             <img
               src={logo}
@@ -32,11 +32,11 @@ const HeroSection = () => {
               time.
             </span>
           </p>
-          <div className="flex flex-col md:flex-row gap-4 md:gap-5 items-center text-base font-bold text-center mt-5 md:ml-12 px-4 md:px-0">
+          <div className="font-manrope flex flex-col md:flex-row gap-4 md:gap-5 items-center text-base font-bold text-center mt-5 md:ml-12 px-4 md:px-0">
             <div className="flex flex-row gap-1 items-center font-manrope text-[#000000] font-normal text-sm">
               Get it for free on the Chrome Web Store now!
             </div>
-            <button className="px-6 md:px-8 py-3 md:py-5 rounded-full text-base md:text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#1CABE3] hover:text-[#ffffff] transition duration-300 ease-in-out">
+            <button className="font-manrope px-6 md:px-8 py-3 md:py-5 rounded-full text-base md:text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#1CABE3] hover:text-[#ffffff] transition duration-300 ease-in-out">
               <span className="flex items-center gap-2">Get Started</span>
             </button>
           </div>

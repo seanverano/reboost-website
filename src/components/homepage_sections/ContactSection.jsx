@@ -29,7 +29,7 @@ const ContactSection = () => {
             </p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-5 font-manrope font-bold mb-10">
               <a href="mailto:verano.seandustin@gmail.com" className="w-auto">
-                <button className="flex flex-row items-center justify-center w-[125px] md:w-[180px] xl:w-[250px] 2xl:w-[300px] py-3 md:py-5 rounded-full text-base md:text-2xl xl:text-3xl 2xl:text-4xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:text-[#000000] hover:bg-[#ffffff] transition duration-300 ease-in-out">
+                <button className="px-6 md:px-8 py-3 md:py-5 rounded-full text-base md:text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#ffffff] hover:text-[#000000] transition duration-300 ease-in-out">
                   <span className="flex items-center gap-2">
                     <MdOutlineMailOutline />
                     Email
@@ -43,9 +43,9 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="w-auto"
               >
-                <button className="flex flex-row items-center justify-center w-[125px] md:w-[180px] xl:w-[250px] 2xl:w-[300px] py-3 md:py-5 rounded-full text-base md:text-2xl xl:text-3xl 2xl:text-4xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:text-[#000000] hover:bg-[#ffffff] transition duration-300 ease-in-out">
+                <button className="px-6 md:px-8 py-3 md:py-5 rounded-full text-base md:text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#ffffff] hover:text-[#000000] transition duration-300 ease-in-out">
                   <span className="flex items-center gap-2">
-                    <MdOutlineMailOutline />
+                    <FaWpforms />
                     Forms
                   </span>
                 </button>
