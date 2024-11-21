@@ -30,8 +30,8 @@ const Footer = () => {
       </div>
       <div className="xl:mr-10 sm:mr-10 w-full md:w-[50%] flex flex-col md:flex-row justify-center md:justify-end items-center md:space-y-0 md:space-x-4">
         <div className="flex flex-col font-manrope text-center md:text-right font-normal text-sm md:text-base 2xl:text-xl leading-tight tracking-[+0.05em] text-[#000000] md:mb-0">
-          Developed by Sean Dustin Verano © 2024.{" "}
-          <span>All Rights Reserved.</span>
+          Developed by Sean Dustin Verano{" "}
+          <span>All Rights Reserved © 2024</span>
         </div>
         <div className="flex space-x-4">
           <a

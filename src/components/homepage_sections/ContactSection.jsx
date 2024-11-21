@@ -6,7 +6,7 @@ const ContactSection = () => {
     <>
       <section
         id="contact"
-        className="pt-12 sm:pt-12 flex flex-col justify-center w-full md:h-[80vh] lg:h-[90vh] xl:h-[160vh] 2xl:h-[120vh] bg-[#E8F8EE] gap-10 md:gap-20 px-4 md:px-0"
+        className="pt-12 sm:pt-12 flex flex-col justify-center w-full md:h-[80vh] lg:h-[120vh] xl:h-[160vh] 2xl:h-[120vh] bg-[#E8F8EE] gap-10 md:gap-20 px-4 md:px-0"
       >
         <h1 className="font-playfair text-4xl md:text-6xl lg:text-8xl text-[#000000] font-semibold leading-snug text-center mx-4 md:mx-20">
           Stay{" "}
