@@ -18,7 +18,6 @@ const WellnessSection = () => {
         <div
           className="w-[80%] mx-auto px-10 sm:px-0 lg:w-[50%] lg:mx-10 bg-gradient-to-r from-[#80D261] to-[#1CABE3] flex flex-col justify-center items-center rounded-[2rem] lg:rounded-[2rem]"
           data-aos="fade-right"
-          data-aos-easing="linear"
           data-aos-duration="1000"
         >
           <div className="flex my-10 lg:my-10 flex-col gap-10 md:gap-20 justify-center items-center w-full md:w-[80%] h-auto md:h-[85%] bg-white/10 border border-white/20 rounded-[2rem] lg:rounded-[2rem] cursor-pointer backdrop-blur-sm shadow-md p-6 lg:p-0">
@@ -36,7 +35,6 @@ const WellnessSection = () => {
         <div
           className="font-manrope w-full lg:w-[50%] bg-[#E8F8EE] relative flex flex-col items-center justify-center px-4 lg:px-0"
           data-aos="fade-left"
-          data-aos-easing="linear"
           data-aos-duration="1000"
         >
           <div className="flex flex-col justify-center h-full">
