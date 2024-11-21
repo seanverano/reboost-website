@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed z-50 w-full font-manrope">
+    <header className="fixed top-0 left-0 right-0 z-50 w-full font-manrope">
       <nav className="relative w-full z-10 rounded-lg overflow-hidden">
         <div className="relative flex items-center justify-between px-4 md:px-11 mt-5 w-full">
           <div className="flex items-center">
@@ -77,7 +77,7 @@ const Navbar = () => {
           </ul>
 
           {isMenuOpen && (
-            <div className="md:hidden fixed inset-0 bg-[#EEF8FB] z-40 top-0 left-0 w-full h-full font-manrope">
+            <div className="md:hidden fixed inset-0 bg-[#EEF8FB] z-50 top-0 left-0 w-full h-full font-manrope">
               <div className="flex flex-col items-center justify-center h-full space-y-8">
                 <HashLink
                   to="#home"
