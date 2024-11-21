@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import { FaArrowUpRightFromSquare, FaBars } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa";
@@ -20,8 +20,8 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed w-full font-manrope">
-      <nav className="relative w-full z-10 rounded-lg overflow-hidden">
+    <header className="fixed top-0 left-0 w-full font-manrope z-50">
+      <nav className="relative w-full z-50 rounded-lg overflow-hidden">
         <div className="relative flex items-center justify-between px-4 md:px-11 mt-5 w-full">
           <div className="flex items-center">
             <h1 className="2xl:text-4xl text-center font-extrabold text-2xl bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
