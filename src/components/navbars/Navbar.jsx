@@ -77,7 +77,7 @@ const Navbar = () => {
           </ul>
 
           {isMenuOpen && (
-            <div className="md:hidden fixed inset-0 bg-[#EEF8FB] z-50 top-0 left-0 w-full h-full font-manrope">
+            <div className="md:hidden fixed inset-0 bg-[#EEF8FB] z-50 top-0 left-0 w-screen h-screen font-manrope">
               <div className="flex flex-col items-center justify-center h-full space-y-8">
                 <HashLink
                   to="#home"
