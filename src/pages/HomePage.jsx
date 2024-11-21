@@ -8,7 +8,14 @@ import Footer from "../components/Footer";
 const HomePage = () => {
   return (
     <>
-      <div className="flex flex-col bg-[#EEF8FB]">
+      <div
+        className="flex flex-col bg-[#EEF8FB] w-full min-w-full overflow-x-hidden"
+        style={{
+          position: "relative",
+          width: "100%",
+          overflowX: "hidden",
+        }}
+      >
         <HeroSection />
         <HydrationSection />
         <IntersectionCircle />
