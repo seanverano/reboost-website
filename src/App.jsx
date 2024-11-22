@@ -13,6 +13,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
+        <Route path="/contact" element={<Navigate to="/#contact" replace />} />
       </Routes>
     </Router>
   );
