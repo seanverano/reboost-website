@@ -98,10 +98,6 @@ const PrivacyPolicyPage = () => {
                 reminder notifications when a timer ends
               </li>
               <li>
-                <span className="font-semibold">activeTab:</span> To interact
-                with the extension popup
-              </li>
-              <li>
                 <span className="font-semibold">alarms:</span> To manage
                 reminder timers
               </li>
