@@ -56,9 +56,15 @@ const HeroSection = () => {
             <div className="flex flex-row gap-1 items-center font-manrope text-[#000000] font-normal text-sm">
               Get it for free on the Chrome Web Store now!
             </div>
-            <button className="font-manrope px-6 md:px-8 py-3 md:py-5 rounded-full text-base md:text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#1CABE3] hover:text-[#ffffff] transition duration-300 ease-in-out">
-              <span className="flex items-center gap-2">Get Started</span>
-            </button>
+            <a
+              href="https://chromewebstore.google.com/detail/reboost/bdlffpdkioakgjjpmgpboogfiaegbpgp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="font-manrope px-6 md:px-8 py-3 md:py-5 rounded-full text-base md:text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#1CABE3] hover:text-[#ffffff] transition duration-300 ease-in-out">
+                <span className="flex items-center gap-2">Get Started</span>
+              </button>
+            </a>
           </div>
         </div>
       </section>
