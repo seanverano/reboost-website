@@ -4,6 +4,7 @@ import WellnessSection from "../components/homepage_sections/WellnessSection";
 import IntersectionCircle from "../components/IntersectionCircle";
 import ContactSection from "../components/homepage_sections/ContactSection";
 import Footer from "../components/Footer";
+import PreviewSection from "../components/homepage_sections/PreviewSection";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
         <HydrationSection />
         <IntersectionCircle />
         <WellnessSection />
+        <PreviewSection />
         <ContactSection />
         <Footer />
       </div>

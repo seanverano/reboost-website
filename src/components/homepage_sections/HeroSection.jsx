@@ -46,7 +46,7 @@ const HeroSection = () => {
             Refresh and Boost your well-being
           </h1>
           <p className="font-manrope text-[#000000] text-base md:text-lg md:ml-12 font-normal flex flex-col px-4 md:px-0">
-            Chrome extension for hydration tracking and wellness reminders,
+            Chrome extension for hydration tracking and custom reminders.{" "}
             <span>
               Helping you improve your health and productivity, one habit at a
               time.
