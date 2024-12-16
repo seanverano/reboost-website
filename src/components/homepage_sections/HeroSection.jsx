@@ -34,6 +34,18 @@ const HeroSection = () => {
             <h1 className="text-center font-extrabold text-4xl md:text-7xl bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
               Reboost
             </h1>
+            <a
+              href="https://fazier.com/launches/reboost"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://fazier.com/api/v1/public/badges/embed_image.svg?launch_id=2217&badge_type=daily&theme=light"
+                width="270"
+                alt="Example Image"
+                class="d-inline-block mt-3 p-3 rounded img-fluid"
+              />
+            </a>
           </div>
         </div>
         <div
