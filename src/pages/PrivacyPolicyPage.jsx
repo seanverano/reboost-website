@@ -20,7 +20,7 @@ const PrivacyPolicyPage = () => {
         <div className="w-full max-w-4xl mt-6 sm:mt-8 md:mt-8 space-y-6 sm:space-y-8">
           <div className="space-y-2">
             <p className="text-xs sm:text-sm text-gray-600">
-              Last Updated: November 22, 2024
+              Last Updated: December 16, 2024
             </p>
           </div>
 
