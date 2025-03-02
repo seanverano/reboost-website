@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
 
           <ul className="hidden md:flex flex-row items-center list-none ml-auto">
-            <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-linear">
               <HashLink
                 to="#home"
                 smooth
@@ -56,7 +56,7 @@ const Navbar = () => {
                 HOME
               </HashLink>
             </li>
-            <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-linear">
               <HashLink
                 to="#features"
                 smooth
@@ -65,7 +65,7 @@ const Navbar = () => {
                 FEATURES
               </HashLink>
             </li>
-            <li className="2xl:text-2xl mx-6 cursor-pointer transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <li className="2xl:text-2xl mx-6 cursor-pointer transform hover:scale-105 transition-transform duration-300 ease-linear">
               <HashLink
                 to="#contact"
                 smooth

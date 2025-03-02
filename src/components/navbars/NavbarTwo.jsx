@@ -38,7 +38,7 @@ const NavbarTwo = () => {
           </div>
 
           <ul className="hidden md:flex flex-row items-center list-none ml-auto">
-            <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-linear">
               <button
                 onClick={viewHome}
                 className="2xl:text-2xl font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer"
@@ -46,7 +46,7 @@ const NavbarTwo = () => {
                 HOME
               </button>
             </li>
-            <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            <li className="mx-6 transform hover:scale-105 transition-transform duration-300 ease-linear">
               <button
                 onClick={viewPrivacyPolicy}
                 className="2xl:text-2xl font-normal text-base leading-tight tracking-[+0.05em] text-[#323232] cursor-pointer"
