@@ -20,15 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <header
-      className="fixed z-50 w-full font-manrope"
-      style={{
-        position: "absolute",
-        top: 0,
-        left: 0,
-        right: 0,
-      }}
-    >
+    <header className="fixed z-50 w-full font-manrope">
       <nav className="relative w-full z-10 rounded-lg overflow-hidden">
         <div className="relative flex items-center justify-between px-4 md:px-11 mt-5 w-full">
           <div className="flex items-center">

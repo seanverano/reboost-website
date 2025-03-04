@@ -5,6 +5,7 @@ import IntersectionCircle from "../components/IntersectionCircle";
 import ContactSection from "../components/homepage_sections/ContactSection";
 import Footer from "../components/Footer";
 import PreviewSection from "../components/homepage_sections/PreviewSection";
+import Navbar from "../components/navbars/Navbar";
 
 const HomePage = () => {
   return (
