@@ -37,7 +37,7 @@ const ContactSection = () => {
           </div>
         </h1>
         <div
-          className="flex justify-center items-center flex-col mx-4 md:mx-20 lg:mx-80  rounded-[2rem] bg-gradient-to-r from-[#1CABE3] to-[#80D261]"
+          className="flex justify-center items-center flex-col mx-4 md:mx-20 xl:mx-80  rounded-[2rem] bg-gradient-to-r from-[#1CABE3] to-[#80D261]"
           data-aos="fade-up"
         >
           <div className="w-[80%] mx-auto my-9 sm:my-9 lg:my-12 lg:mx:12 sm:px-0 flex justify-center flex-col md:w-[85%] md:py-10 lg:py-12 bg-white/10 border border-white/20 rounded-[2rem] backdrop-blur-sm shadow-md">
