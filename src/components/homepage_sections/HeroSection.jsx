@@ -86,20 +86,6 @@ const HeroSection = () => {
             <div className="flex flex-row gap-1 items-center font-manrope text-[#000000] font-normal text-sm">
               Get it for free on the Chrome Web Store now!
             </div>
-
-            <a
-              className="hover:bg-[#ffffff] border-2 border-transparent rounded-xl inline-block transition-all duration-300"
-              href="https://chromewebstore.google.com/detail/reboost/bdlffpdkioakgjjpmgpboogfiaegbpgp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={chrome_web_store}
-                width="250"
-                alt="Check it on Chrome Web Store"
-                class="d-inline-block rounded img-fluid"
-              />
-            </a>
             <a
               href="https://chromewebstore.google.com/detail/reboost/bdlffpdkioakgjjpmgpboogfiaegbpgp"
               target="_blank"
@@ -107,7 +93,7 @@ const HeroSection = () => {
             >
               <button className="lg:text-xl group relative inline-flex items-center px-6 py-3 rounded-lg text-[#ffffff] bg-gradient-to-r from-[#1CABE3] to-[#80D261] leading-normal tracking-[0.015em] transition-all duration-300 hover:pr-10">
                 <span>Add to Chrome</span>
-                <FaArrowUpRightFromSquare className="absolute left-[calc(100%-30px)] transform translate-x-8 opacity-0 transition-all duration-300 text-base group-hover:translate-x-0 group-hover:opacity-100" />
+                <FaArrowUpRightFromSquare className="items-center text-xl absolute left-[calc(100%-30px)] transform translate-x-8 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100" />
               </button>
             </a>
           </div>
