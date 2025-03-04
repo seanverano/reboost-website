@@ -11,12 +11,14 @@ const PreviewSection = () => {
   }, []);
 
   return (
-    <section className="pt-10 sm:pt-10 flex flex-col justify-center w-full bg-[#E8F8EE] gap-5 md:gap-10 px-4 md:px-0">
+    <section className="md:pt-10 flex flex-col justify-center w-full bg-[#E8F8EE] gap-5 md:gap-10 px-4 md:px-0">
       <div
         className="flex flex-col items-center bg-[#E8F8EE] font-playfair text-4xl md:text-6xl xl:text-8xl text-[#000000] font-semibold leading-snug text-center"
         data-aos="fade-up"
       >
-        <h2 className="py-5">Learn More</h2>
+        <h2 className="py-5 text-3xl md:text-6xl lg:text-7xl md:pb-20">
+          Learn More
+        </h2>
         <div className="w-full max-w-4xl">
           <div className="relative pb-[56.25%] h-0 overflow-hidden max-w-full">
             <iframe
