@@ -51,7 +51,7 @@ const ContactSection = () => {
             <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-5 font-manrope font-bold mb-10">
               <a href="mailto:verano.seandustin@gmail.com" className="w-auto">
                 <button
-                  className="px-6 md:px-8 py-3 md:py-5 rounded-full text-base md:text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#ffffff] hover:text-[#000000] transition duration-300 ease-in-out"
+                  className="px-6 md:px-8 py-3 md:py-5 rounded-full text-base md:text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#ffffff] hover:text-[#000000] transition duration-500"
                   data-aos="fade-right"
                   data-aos-duration="1000"
                 >
@@ -69,7 +69,7 @@ const ContactSection = () => {
                 className="w-auto"
               >
                 <button
-                  className="px-6 md:px-8 py-3 md:py-5 rounded-full text-base md:text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#ffffff] hover:text-[#000000] transition duration-300 ease-in-out"
+                  className="px-6 md:px-8 py-3 md:py-5 rounded-full text-base md:text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#ffffff] hover:text-[#000000] transition duration-500"
                   data-aos="fade-left"
                   data-aos-duration="1000"
                 >

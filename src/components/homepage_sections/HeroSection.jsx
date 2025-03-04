@@ -34,21 +34,22 @@ const HeroSection = () => {
               alt="Reboost Logo"
               className="w-[200px] h-[200px] md:w-[300px] md:h-[300px]"
             />
-            <h1 className="text-center font-extrabold text-4xl md:text-7xl bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
+            <h1 className="text-center font-extrabold text-5xl md:text-7xl bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
               Reboost
             </h1>
             <a
               href="https://chromewebstore.google.com/detail/reboost-hydration-tracker/bdlffpdkioakgjjpmgpboogfiaegbpgp"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex-col justify-center"
             >
               <img
                 src={chrome_featured}
                 width="250"
                 alt="Example Image"
-                class="d-inline-block rounded img-fluid"
+                class=" rounded img-fluid w-full max-w-[160px] lg:max-w-[250px]"
               />
-              <p className="text-sm flex justify-center font-semibold text-[#1A65D7] mb-2">
+              <p className="text-xs md:text-sm flex justify-center font-semibold text-[#1A65D7] mb-2">
                 on the Chrome Web Store
               </p>
             </a>
@@ -61,7 +62,7 @@ const HeroSection = () => {
                 src={fazier_badge}
                 width="250"
                 alt="Example Image"
-                class="d-inline-block rounded img-fluid"
+                class="rounded img-fluid w-full max-w-[160px] lg:max-w-[250px]"
               />
             </a>
           </div>
