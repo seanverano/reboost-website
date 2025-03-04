@@ -70,7 +70,7 @@ const Navbar = () => {
             <li className="mx-4 flex">
               <div className="text-base 2xl:text-xl font-bold text-center">
                 <a
-                  className="hover:bg-[#ffffff] border-2 border-transparent rounded-xl inline-block transition-all duration-300"
+                  className="hover:bg-gradient-to-r from-[#1CABE3] to-[#80D261] rounded-lg inline-block transition-all duration-300"
                   href="https://chromewebstore.google.com/detail/reboost/bdlffpdkioakgjjpmgpboogfiaegbpgp"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -141,7 +141,7 @@ const Navbar = () => {
                   PRIVACY POLICY
                 </button>
                 <a
-                  className="hover:bg-[#ffffff] border-2 border-transparent rounded-xl inline-block transition-all duration-300"
+                  className="hover:bg-gradient-to-r from-[#1CABE3] to-[#80D261] rounded-lg inline-block transition-all duration-300"
                   href="https://chromewebstore.google.com/detail/reboost/bdlffpdkioakgjjpmgpboogfiaegbpgp"
                   target="_blank"
                   rel="noopener noreferrer"
