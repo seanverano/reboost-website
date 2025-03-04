@@ -16,7 +16,7 @@ const ContactSection = () => {
     <>
       <section
         id="contact"
-        className="pt-12 sm:pt-12 flex flex-col justify-center w-full md:h-[80vh] lg:h-[120vh] xl:h-[160vh] 2xl:h-[120vh] bg-[#E8F8EE] gap-10 md:gap-20 px-4 md:px-0"
+        className="pt-12 md:pt-20 flex flex-col justify-center w-full md:h-[80vh] lg:h-[120vh] xl:h-[160vh] 2xl:h-[120vh] bg-[#E8F8EE] gap-10 md:gap-20 px-4 md:px-0"
       >
         <h1
           className="font-playfair text-3xl md:text-6xl lg:text-7xl text-[#000000] font-semibold leading-snug text-center mx-4 md:mx-20"
@@ -37,12 +37,12 @@ const ContactSection = () => {
           </div>
         </h1>
         <div
-          className="flex justify-center items-center flex-col mx-4 md:mx-20 lg:mx-20 xl:mx-60 rounded-[2rem] bg-gradient-to-r from-[#1CABE3] to-[#80D261]"
+          className="flex justify-center items-center flex-col mx-4 md:mx-20 lg:mx-80  rounded-[2rem] bg-gradient-to-r from-[#1CABE3] to-[#80D261]"
           data-aos="fade-up"
         >
-          <div className="w-[80%] mx-auto my-9 sm:my-9 sm:px-0 flex justify-center flex-col md:w-[85%] md:py-20 bg-white/10 border border-white/20 rounded-[2rem] backdrop-blur-sm shadow-md">
+          <div className="w-[80%] mx-auto my-9 sm:my-9 lg:my-12 lg:mx:12 sm:px-0 flex justify-center flex-col md:w-[85%] md:py-10 lg:py-12 bg-white/10 border border-white/20 rounded-[2rem] backdrop-blur-sm shadow-md">
             <p
-              className="px-4 text-center font-manrope text-white text-sm sm:text-base md:text-xl 2xl:text-3xl font-semibold mt-6 md:mt-10 mb-5 md:mb-20 mx-4 md:mx-10"
+              className="px-4 text-center font-manrope text-white text-sm sm:text-base md:text-xl 2xl:text-2xl font-semibold mt-6 md:mt-10 mb-5 md:mb-20 mx-4 md:mx-10"
               data-aos="fade-up"
             >
               Email me your thoughts or share feedback and report bugs through
