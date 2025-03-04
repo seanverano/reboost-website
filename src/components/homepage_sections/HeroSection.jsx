@@ -1,4 +1,7 @@
 import logo from "../../assets/images/logo.png";
+import fazier_badge from "../../assets/images/fazier_badge.svg";
+import chrome_web_store from "../../assets/images/chrome_web_store.png";
+import chrome_featured from "../../assets/images/chrome_featured.png";
 import Navbar from "../navbars/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -35,15 +38,30 @@ const HeroSection = () => {
               Reboost
             </h1>
             <a
+              href="https://chromewebstore.google.com/detail/reboost-hydration-tracker/bdlffpdkioakgjjpmgpboogfiaegbpgp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={chrome_featured}
+                width="250"
+                alt="Example Image"
+                class="d-inline-block rounded img-fluid"
+              />
+              <p className="text-sm flex justify-center font-semibold text-[#1A65D7] mb-2">
+                on the Chrome Web Store
+              </p>
+            </a>
+            <a
               href="https://fazier.com/launches/reboost"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="https://fazier.com/api/v1/public/badges/embed_image.svg?launch_id=2217&badge_type=daily&theme=light"
-                width="270"
+                src={fazier_badge}
+                width="250"
                 alt="Example Image"
-                class="d-inline-block mt-3 p-3 rounded img-fluid"
+                class="d-inline-block rounded img-fluid"
               />
             </a>
           </div>
@@ -68,14 +86,19 @@ const HeroSection = () => {
             <div className="flex flex-row gap-1 items-center font-manrope text-[#000000] font-normal text-sm">
               Get it for free on the Chrome Web Store now!
             </div>
+
             <a
+              className="hover:bg-[#ffffff] border-2 border-transparent rounded-xl inline-block transition-all duration-300"
               href="https://chromewebstore.google.com/detail/reboost/bdlffpdkioakgjjpmgpboogfiaegbpgp"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="font-manrope px-6 md:px-8 py-3 md:py-5 rounded-full text-base md:text-xl text-[#ffffff] bg-[#000000] leading-normal tracking-[0.015em] hover:bg-[#1CABE3] hover:text-[#ffffff] transition duration-300 ease-in-out">
-                <span className="flex items-center gap-2">Get Started</span>
-              </button>
+              <img
+                src={chrome_web_store}
+                width="250"
+                alt="Check it on Chrome Web Store"
+                class="d-inline-block rounded img-fluid"
+              />
             </a>
           </div>
         </div>
