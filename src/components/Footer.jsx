@@ -31,7 +31,18 @@ const Footer = () => {
       </div>
       <div className="xl:mr-10 sm:mr-10 w-full md:w-[50%] flex flex-col md:flex-row justify-center md:justify-end items-center md:space-y-0 md:space-x-4">
         <div className="flex flex-col font-manrope text-center md:text-right font-normal text-sm md:text-base 2xl:text-xl leading-tight tracking-[+0.05em] text-[#000000] md:mb-0">
-          Developed with 💧🥛 by SDV <span>All Rights Reserved © 2024</span>
+          <div className="flex flex-row">
+            Developed with 🥛 by{" "}
+            <a
+              href="https://seanverano.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text font-semibold ml-1 mr-1 hover:text-black"
+            >
+              SDV
+            </a>
+          </div>{" "}
+          <span> © 2024-2025</span>
         </div>
         <div className="flex space-x-4">
           <a
