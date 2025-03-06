@@ -26,11 +26,11 @@ const ContactSection = () => {
         >
           Stay{" "}
           <span className="bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
-            healthy{" "}
+            refreshed{" "}
           </span>
           and{" "}
           <span className="bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
-            hydrated
+            boosted
           </span>
           <div className="text-3xl md:text-6xl lg:text-7xl mt-4 text-center">
             Get in Touch!

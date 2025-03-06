@@ -8,9 +8,9 @@ const Footer = () => {
   const viewPrivacyPolicy = () => navigate("/privacy-policy");
 
   return (
-    <div className="flex flex-col md:flex-row items-center bg-[#E8F8EE] py-8 px-4 md:px-0">
+    <div className="flex flex-col md:flex-row items-center bg-[#E8F8EE] py-8 pt-20 px-4 md:px-0">
       <div className="hidden md:flex w-[50%] justify-start">
-        <ul className="2xl:text-2xl flex flex-row items-center font-manrope ml-10">
+        <ul className="text-lg flex flex-row items-center font-manrope ml-10">
           <li className="mx-6">
             <button
               onClick={viewPrivacyPolicy}
@@ -30,9 +30,9 @@ const Footer = () => {
         </ul>
       </div>
       <div className="xl:mr-10 sm:mr-10 w-full md:w-[50%] flex flex-col md:flex-row justify-center md:justify-end items-center md:space-y-0 md:space-x-4">
-        <div className="flex flex-col font-manrope text-center md:text-right font-normal text-sm md:text-base 2xl:text-xl leading-tight tracking-[+0.05em] text-[#000000] md:mb-0">
+        <div className="flex flex-col font-manrope text-center md:text-right font-normal text-sm md:text-base 2xl:text-xl leading-normal tracking-[0.015em] text-[#000000] md:mb-0">
           <div className="flex flex-row">
-            Developed with 🥛 by{" "}
+            Built with 🥛 by{" "}
             <a
               href="https://seanverano.com"
               target="_blank"

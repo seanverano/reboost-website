@@ -4,7 +4,7 @@ import chrome_featured from "../../assets/images/chrome_featured.png";
 import Navbar from "../navbars/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import chrome_web_store from "../../assets/images/chrome_web_store.png";
 import { useEffect } from "react";
 
 const HeroSection = () => {
@@ -77,7 +77,7 @@ const HeroSection = () => {
             Refresh and Boost your well-being
           </h1>
           <p className="font-manrope text-[#000000] text-base md:text-lg md:ml-12 font-normal flex flex-col px-4 md:px-0">
-            Chrome extension for hydration tracking and custom reminders.{" "}
+            Chrome extension for hydration tracking and custom break reminders.{" "}
             <span>
               Helping you improve your health and productivity, one habit at a
               time.
@@ -85,18 +85,26 @@ const HeroSection = () => {
           </p>
           <div className="font-manrope flex flex-col md:flex-row gap-4 md:gap-5 items-center text-base font-bold text-center mt-5 md:ml-12 px-4 md:px-0">
             <div className="flex flex-row gap-1 items-center font-manrope text-[#000000] font-normal text-sm">
-              Get it for free on the Chrome Web Store now!
+              Stay hydrated and never miss a break! Get it free!
+            </div>{" "}
+            <div className="text-base 2xl:text-xl font-bold text-center">
+              <a
+                className="bg-transparent relative rounded-lg inline-block transition-all duration-300 
+                              after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] 
+                              after:bg-gradient-to-r after:from-[#1CABE3] after:to-[#80D261] after:scale-x-0 
+                              after:transition-transform after:duration-300 hover:after:scale-x-100"
+                href="https://chromewebstore.google.com/detail/reboost/bdlffpdkioakgjjpmgpboogfiaegbpgp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={chrome_web_store}
+                  width="250"
+                  alt="Check it on Chrome Web Store"
+                  class="d-inline-block rounded img-fluid"
+                />
+              </a>
             </div>
-            <a
-              href="https://chromewebstore.google.com/detail/reboost/bdlffpdkioakgjjpmgpboogfiaegbpgp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="lg:text-xl group relative inline-flex items-center px-6 py-3 rounded-lg text-[#ffffff] bg-gradient-to-r from-[#1CABE3] to-[#80D261] leading-normal tracking-[0.015em] transition-all duration-300 hover:pr-10">
-                <span>Add to Chrome</span>
-                <FaArrowUpRightFromSquare className="items-center text-xl absolute left-[calc(100%-30px)] transform translate-x-8 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100" />
-              </button>
-            </a>
           </div>
         </div>
       </section>
