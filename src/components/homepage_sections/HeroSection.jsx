@@ -41,15 +41,15 @@ const HeroSection = () => {
               href="https://chromewebstore.google.com/detail/reboost-hydration-tracker/bdlffpdkioakgjjpmgpboogfiaegbpgp"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-col justify-center"
+              className="flex-col bg-[#FFFFFF] justify-center rounded-lg border border-[#1A65D7]"
             >
               <img
                 src={chrome_featured}
                 width="250"
                 alt="Example Image"
-                class=" rounded img-fluid w-full max-w-[160px] lg:max-w-[250px]"
+                class=" rounded img-fluid w-[160px] max-w-[180px] lg:max-w-[180px]"
               />
-              <p className="text-xs md:text-sm flex justify-center font-semibold text-[#1A65D7] mb-2">
+              <p className="text-xs  flex justify-center font-semibold text-[#1A65D7] mb-2">
                 on the Chrome Web Store
               </p>
             </a>
