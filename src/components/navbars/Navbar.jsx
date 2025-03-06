@@ -106,7 +106,7 @@ const Navbar = () => {
             >
               <button
                 onClick={closeMenu}
-                className="absolute top-5 right-8 text-[#323232] focus:outline-none"
+                className="absolute top-5 right-4 text-[#323232] focus:outline-none"
               >
                 <FaTimes size={24} />
               </button>

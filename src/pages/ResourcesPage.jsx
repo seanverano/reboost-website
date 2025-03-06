@@ -3,7 +3,7 @@ import { GrResources } from "react-icons/gr";
 
 const ResourcesPage = () => {
   return (
-    <div className="relative flex w-full min-h-screen bg-[#E8F8EE] pb-10 md:pb-20">
+    <div className="relative flex w-full min-h-screen bg-[#EEF8FB] pb-10 md:pb-20">
       <NavbarTwo />
       <div className="font-manrope w-full flex flex-col justify-start items-start px-4 sm:px-10 md:px-20">
         <h1
@@ -34,7 +34,7 @@ const ResourcesPage = () => {
             <a
               href="https://www.flaticon.com/free-icons/water-drop"
               title="water drop icons"
-              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center text-sm sm:text-base"
+              className="text-[#000000] gap-1 flex flex-row items-center text-sm sm:text-base"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -49,7 +49,7 @@ const ResourcesPage = () => {
             <a
               href="https://www.flaticon.com/free-icons/feature"
               title="feature icons"
-              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center text-sm sm:text-base"
+              className="text-[#000000] gap-1 flex flex-row items-center text-sm sm:text-base"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -63,7 +63,7 @@ const ResourcesPage = () => {
             </h3>
             <a
               href="https://storyset.com/people"
-              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center text-sm sm:text-base"
+              className="text-[#000000] gap-1 flex flex-row items-center text-sm sm:text-base"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -71,7 +71,7 @@ const ResourcesPage = () => {
             </a>
             <a
               href="https://storyset.com/work"
-              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center text-sm sm:text-base"
+              className="text-[#000000] gap-1 flex flex-row items-center text-sm sm:text-base"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -79,7 +79,7 @@ const ResourcesPage = () => {
             </a>
             <a
               href="https://storyset.com/happy"
-              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center text-sm sm:text-base"
+              className="text-[#000000] gap-1 flex flex-row items-center text-sm sm:text-base"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -94,7 +94,7 @@ const ResourcesPage = () => {
             <a
               href="https://react-icons.github.io/react-icons/"
               title="water drop icons"
-              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center text-sm sm:text-base"
+              className="text-[#000000] gap-1 flex flex-row items-center text-sm sm:text-base"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -120,7 +120,7 @@ const ResourcesPage = () => {
             <a
               href="https://www.flaticon.com/free-icons/water-drop"
               title="water drop icons"
-              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center text-sm sm:text-base"
+              className="text-[#000000] gap-1 flex flex-row items-center text-sm sm:text-base"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -135,7 +135,7 @@ const ResourcesPage = () => {
             <a
               href="https://www.flaticon.com/free-icons/hydration"
               title="hydration icons"
-              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center text-sm sm:text-base"
+              className="text-[#000000] gap-1 flex flex-row items-center text-sm sm:text-base"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -150,7 +150,7 @@ const ResourcesPage = () => {
             <a
               href="https://www.flaticon.com/free-icons/notification"
               title="notification icons"
-              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center text-sm sm:text-base"
+              className="text-[#000000] gap-1 flex flex-row items-center text-sm sm:text-base"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -165,7 +165,7 @@ const ResourcesPage = () => {
             <a
               href="https://react-icons.github.io/react-icons/"
               title="water drop icons"
-              className="text-[#000000] hover:text-[#019963] gap-1 flex flex-row items-center text-sm sm:text-base"
+              className="text-[#000000] gap-1 flex flex-row items-center text-sm sm:text-base"
               target="_blank"
               rel="noopener noreferrer"
             >
