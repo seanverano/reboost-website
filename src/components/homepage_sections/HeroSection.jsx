@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import chrome_web_store from "../../assets/images/chrome_web_store.png";
 import { useEffect } from "react";
+import IndieDealsEmbed from "../IndieDealsEmbed";
 
 const HeroSection = () => {
   useEffect(() => {
@@ -36,22 +37,7 @@ const HeroSection = () => {
             <h1 className="text-center font-extrabold text-5xl md:text-7xl bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
               Reboost
             </h1>
-            <a
-              href="https://indie.deals?ref=https%3A%2F%2Freboost.fyi%2F"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="no-underline"
-            >
-              <span className="text-sm font-medium text-gray-700">
-                Find us on{""}
-                <span className="font-semibold text-blue-500 relative inline-block ml-1">
-                  {""}Indie.Deals
-                  <span className="indie-deals-text-badge relative">
-                    <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-blue-500 transition-all duration-300"></span>
-                  </span>
-                </span>
-              </span>
-            </a>
+            <IndieDealsEmbed />
             <a
               href="https://startupfa.me/s/reboost?utm_source=reboost.fyi"
               target="_blank"
