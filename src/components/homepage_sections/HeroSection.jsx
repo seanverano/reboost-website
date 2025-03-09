@@ -1,6 +1,5 @@
 import logo from "../../assets/images/logo.png";
 import fazier_badge from "../../assets/images/fazier_badge.svg";
-import chrome_featured from "../../assets/images/chrome_featured.png";
 import Navbar from "../navbars/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -38,21 +37,22 @@ const HeroSection = () => {
               Reboost
             </h1>
             <a
-              href="https://chromewebstore.google.com/detail/reboost-hydration-tracker/bdlffpdkioakgjjpmgpboogfiaegbpgp"
+              href="https://indie.deals?ref=https%3A%2F%2Freboost.fyi%2F"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-col bg-[#FFFFFF] justify-center rounded-lg border border-[#1A65D7]"
+              className="no-underline"
             >
-              <img
-                src={chrome_featured}
-                width="250"
-                alt="Example Image"
-                class=" rounded img-fluid w-[160px] max-w-[180px] lg:max-w-[180px]"
-              />
-              <p className="text-xs  flex justify-center font-semibold text-[#1A65D7] mb-2">
-                on the Chrome Web Store
-              </p>
+              <span className="text-sm font-medium text-gray-700">
+                Find us on{""}
+                <span className="font-semibold text-blue-500 relative inline-block ml-1">
+                  {""}Indie.Deals
+                  <span className="indie-deals-text-badge relative">
+                    <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-blue-500 transition-all duration-300"></span>
+                  </span>
+                </span>
+              </span>
             </a>
+
             <a
               href="https://fazier.com/launches/reboost"
               target="_blank"
