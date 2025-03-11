@@ -45,6 +45,7 @@ const HeroSection = () => {
                 alt="Reboost - Hydration Tracker & Custom Reminders | Startup Fame"
                 width="171"
                 height="54"
+                class="rounded img-fluid w-full max-w-[140px] lg:max-w-[170px]"
               />
             </a>
             <a
