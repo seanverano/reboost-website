@@ -36,7 +36,17 @@ const HeroSection = () => {
             <h1 className="text-center font-extrabold text-5xl md:text-7xl bg-gradient-to-r from-[#1CABE3] to-[#80D261] text-transparent bg-clip-text">
               Reboost
             </h1>
-
+            <a
+              href="https://startupfa.me/s/reboost?utm_source=reboost.fyi"
+              target="_blank"
+            >
+              <img
+                src="https://startupfa.me/badges/featured-badge.webp"
+                alt="Reboost - Hydration Tracker & Custom Reminders | Startup Fame"
+                width="171"
+                height="54"
+              />
+            </a>
             <a
               href="https://fazier.com/launches/reboost"
               target="_blank"
